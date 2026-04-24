@@ -101,6 +101,7 @@ body{
 p{
 	line-height: 1.7em;
 	margin-bottom: 1.5em;
+	text-align: justify;
 }
 
 h1,
@@ -759,7 +760,7 @@ header.main-header .header-sticky.active{
 
 .hero{
     position: relative;
-	background-image: url('../images/hero-bg-image.jpg');
+	background-image: url('../images/banner1.png');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -3288,7 +3289,7 @@ header.main-header .header-sticky.active{
 
 .page-header{
 	position: relative;
-	background-image: url('../images/page-header-bg.jpg');
+	background-image: url('../images/a2.jpeg');
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -3355,12 +3356,12 @@ header.main-header .header-sticky.active{
 	position: relative;
 	background-color: var(--bg-color);
 	border-radius: 10px;
-	min-height: 460px;
+	/* min-height: 460px; */
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	gap: 30px;
-	height: calc(100% - 30px);
+	/* height: calc(100% - 30px); */
 	margin-bottom: 30px;
 	padding: 40px;
 	overflow: hidden;
