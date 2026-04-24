@@ -5,15 +5,15 @@
 <head>
 	<!-- Meta -->
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="X-UA-Compatible" content="Good Captains">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	<meta name="description" content="">
 	<meta name="keywords" content="">
-	<meta name="author" content="Awaiken">
+	<meta name="author" content="">
 	<!-- Page Title -->
     <title>Good Captains of India Foundation</title>
 	<!-- Favicon Icon -->
-	<!-- <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png"> -->
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
     <!-- Google Fonts Css-->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
@@ -37,6 +37,89 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
 </head>
+<style>
+ 
+   .floating-contact {
+  position: fixed;
+  right: 15px;
+  top: 90%;
+  transform: translateY(-50%);
+  z-index: 9999;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Buttons */
+.contact-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #fff;
+  font-size: 22px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+}
+
+.whatsapp { background: #176835; }
+.call { background: #c62828; }
+
+/* Floating Enquiry Box */
+.enquiry-float {
+  position: fixed;
+  right: 20px;
+  width: 260px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  z-index: 9999;
+    display: none;
+}
+/* Form */
+.enquiry-float form h4 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.enquiry-float input,
+.enquiry-float textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.enquiry-btn {
+  width: 100%;
+  background: #e63946;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.enquiry-btn:hover {
+  background: #c92f3c;
+}
+@media (max-width: 768px) {
+    .causes-item {
+        width: 100%;
+    }
+}
+
+</style>
 <body>
 
     <!-- Preloader Start -->
@@ -47,14 +130,26 @@
 		</div>
 	</div> -->
 	<!-- Preloader End -->
+<div class="floating-contact">
 
+  <!-- WhatsApp -->
+  <a href="https://wa.me/919655900009" target="_blank" class="contact-btn whatsapp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Call -->
+  <a href="tel:+919655900009 " class="contact-btn call">
+    <i class="fas fa-phone"></i>
+  </a>
+
+</div>
    <header class="main-header">
 		<div class="header-sticky">
 			<nav class="navbar navbar-expand-lg" style="background-color: aliceblue;">
 				<div class="container">
 					<!-- Logo Start -->
 					<a class="navbar-brand" href="index.html">
-						<img src="images/1.png" style="height: 80px;" alt="Logo">
+						<img src="images/1.png" style="height: 100px;" alt="Logo">
 					</a>
 					<!-- Logo End -->
 
@@ -98,10 +193,10 @@
                     <div class="page-header-box">
                         <h1 class="text-anime-style-3" data-cursor="-opaque">About us</h1>
                         <nav class="wow fadeInUp">
-                            <ol class="breadcrumb">
+                            <!-- <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="index-2.html">home</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">About Us</li>
-                            </ol>
+                            </ol> -->
                         </nav>
                     </div>
                     <!-- Page Header Box End -->
@@ -157,7 +252,7 @@
                             <!-- About Us Image Start -->
                             <div class="about-us-image">
                                 <figure class="image-anime">
-                                    <img src="images/about-us-image-1.jpg" alt="">
+                                    <img src="images/a4.png" alt="">
                                 </figure>
                             </div>
                             <!-- About Us Image End -->
@@ -176,7 +271,7 @@
                             <!-- About Us Image Start -->
                             <div class="about-us-image">
                                 <figure class="image-anime">
-                                    <img src="images/about-us-image-2.jpg" alt="">
+                                    <img src="images/a6.png" alt="">
                                 </figure>
                             </div>
                             <!-- About Us Image End -->
@@ -199,44 +294,16 @@
             </h2>
 
             <p class="wow fadeInUp" data-wow-delay="0.2s">
-                Good Captains of India Foundation is dedicated to empowering communities,
-                promoting sustainable development, and creating equal opportunities for all.
-                Through education, social initiatives, and collaborative partnerships,
-                we strive to build a more inclusive and prosperous future.
+               Good Captains of India Foundation is where compassionate leadership meets sustainable action. We are a dedicated nonprofit committed to empowering youth and communities across India through inclusive programs inspired by the United Nations' Sustainable Development Goals (SDGs).
+<br><br>Founded with a vision of dignity, prosperity, and equality for all, we foster compassionate leaders who drive positive change. Our initiatives—youth volunteering, women empowerment workshops, community upliftment, and skill-building projects—create lasting impact, guided by our 5 Ps core values: People, Planet, Prosperity, Peace, and Partnership, aligned with SDGs and aimed for clarity and impact.
+<Br><br>Join us in steering India toward a better future.
+
             </p>
         </div>
         <!-- Section Title End -->
 
 
-        <!-- About Us Body Start -->
-        <div class="about-us-body wow fadeInUp" data-wow-delay="0.4s">
-
-            <!-- About Body Item Start -->
-            <div class="about-body-item">
-                <div class="icon-box">
-                    <img src="images/icon-about-us-item-1.svg" alt="">
-                </div>
-
-                <div class="about-body-item-content">
-                    <h3>Strengthening Communities</h3>
-                    <ul>
-                        <li>We collaborate with communities to understand their needs and create impactful programs that improve lives.</li>
-                    </ul>
-                </div>
-            </div>
-            <!-- About Body Item End -->
-
-
-            <!-- About Body Image Start -->
-            <div class="about-body-image">
-                <figure class="image-anime">
-                    <img src="images/about-us-body-image.jpg" alt="">
-                </figure>
-            </div>
-            <!-- About Body Image End -->
-
-        </div>
-        <!-- About Us Body End -->
+     
 
 
         <!-- About Us Footer Start -->
@@ -255,6 +322,37 @@
     <!-- About Us Content End -->
 </div>
             </div>
+              <!-- Why Choose Us Item List Start -->
+                <div class="causes-item-list" style=" display: flex;
+    gap: 30px;
+    flex-wrap: wrap;">
+
+                    <!-- Item 1 -->
+                    <div class="causes-item wow fadeInUp">
+                        <div class="icon-box">
+                            <img src="images/icon-our-causes-item-1.svg" alt="">
+                        </div>
+                        <div class="causes-item-content">
+                            <h3>Our Mission</h3>
+                            <p>Our mission is to empower individuals and communities through compassionate leadership, sustainable development, and inclusive opportunities, steering India toward a brighter, equitable, and thriving future. With the guiding principles of the United Nations' Sustainable Development Goals (SDGs), we have translated these global aspirations into actionable focus areas. We believe in making a positive impact that resonates for generations to come.</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="causes-item wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="icon-box">
+                            <img src="images/icon-our-causes-item-2.svg" alt="">
+                        </div>
+                        <div class="causes-item-content">
+                            <h3>Our Vision</h3>
+                            <p>Our vision is a future where every person has access to a life of dignity, prosperity, and equality, and where our planet thrives in harmony with the needs of its people.</p>
+                        </div>
+                    </div>
+
+                  
+
+                </div>
+                <!-- Why Choose Us Item List End -->    
         </div>
     </div>
     <!-- About US Section End -->
@@ -267,10 +365,10 @@
     <div class="col-xl-6">
         <!-- Section Title Start -->
         <div class="section-title">
-            <span class="section-sub-title wow fadeInUp">The Foundation of Our Work</span>
+            <span class="section-sub-title wow fadeInUp">Our Leadership</span>
 
             <h2 class="text-anime-style-3" data-cursor="-opaque">
-                Transforming Vision into Positive Social Impact
+                Guiding Leadership with Purpose and Integrity
             </h2>
         </div>
         <!-- Section Title End -->
@@ -283,11 +381,8 @@
             <!-- Section Title Content Start -->
             <div class="section-title-content wow fadeInUp" data-wow-delay="0.2s">
                 <p>
-                    At Good Captains of India Foundation, we believe that meaningful change
-                    begins with understanding community needs. By working closely with
-                    people, partners, and volunteers, we design impactful programs that
-                    promote education, sustainability, social welfare, and inclusive growth.
-                </p>
+    At Good Captains of India Foundation, our leadership is driven by a deep commitment to understanding the needs of communities. By fostering collaboration with partners, volunteers, and stakeholders, we create impactful initiatives that advance education, sustainability, social welfare, and inclusive growth.
+</p>
             </div>
             <!-- Section Title Content End -->
 
@@ -298,24 +393,26 @@
 </div>
 
             <div class="row">
-                <div class="col-xl-4 col-md-6">
+                <div class="col-xl-12 col-md-6">
                     <!-- Our Approach Item Start -->
                     <div class="approach-item box-1 wow fadeInUp">
                         <div class="approach-item-header">
-                            <div class="icon-box">
+                            <!-- <div class="icon-box">
                                 <img src="images/icon-our-approach-1.svg" alt="">
-                            </div>
+                            </div> -->
                             <div class="approach-item-title">
-                                <h3>Our Mission</h3>
+                                <h3>Capt. Parthiban Sivaraj</h3>
+                              <p style="color: black;"
+   onmouseover="this.style.color='white'"
+   onmouseout="this.style.color='black'">
+   Founder & Managing Trustee
+</p>
                             </div>
                         </div>
                         <div class="approach-item-content">
-                            <p>Our mission is to empower individuals and communities through compassionate 
-                                leadership, sustainable development, and inclusive opportunities, steering
-                                 India toward a brighter, equitable, and thriving future. With the guiding 
-                                 principles of the United Nations' Sustainable Development Goals (SDGs),
-                                 we have translated these global aspirations into 
-                                actionable focus areas. </p>
+                            <p>Capt. Parthiban Sivaraj, Retired Captain from Air India, brings decades of distinguished leadership from the skies to ground-level impact. A veteran aviator with an illustrious career piloting for one of India's premier airlines, he navigated challenges with precision, safety, and unwavering commitment—skills he now channels into social good.
+<br><br>As Founder and Managing Trustee of Good Captains of India Foundation, Capt. Parthiban steers our mission to empower youth and communities through SDG-aligned programs. His vision of compassionate leadership and sustainable action inspires initiatives like women empowerment workshops and community upliftment projects.With a heart for service, he leads by example, fostering resilient leaders for India's brighter future.
+</p>
                             <!-- <ul>
                                 <li>To empower communities by addressing real social challenges.</li>
                             </ul> -->
@@ -324,21 +421,29 @@
                     <!-- Our Approach Item End -->
                 </div>
 
-                <div class="col-xl-4 col-md-6">
+                <div class="col-xl-12 col-md-6">
                     <!-- Our Approach Item Start -->
                     <div class="approach-item box-2 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="approach-item-header">
-                            <div class="icon-box">
+                            <!-- <div class="icon-box">
                                 <img src="images/icon-our-approach-2.svg" alt="">
-                            </div>
+                            </div> -->
                             <div class="approach-item-title">
-                                <h3>Our Vision</h3>
+                                <h3>
+Nizamudeen Yunus
+</h3>
+<p style="color: black;"
+   onmouseover="this.style.color='white'"
+   onmouseout="this.style.color='black'">
+   Trustee
+</p>
                             </div>
                         </div>
                         <div class="approach-item-content">
-                            <p>We envision a world where empowered communities, sustainable practices, and compassionate
-                                 leadership pave the way for a brighter and more inclusive future. A world where no one is left behind, and everyone has the opportunity to thrive. By decoding the SDGs and aligning our work with these
-                                 global objectives, we are steering India toward a more prosperous, peaceful, and equitable future.</p>
+                            <p>Nizamudeen Yunus is a dynamic Founder-Director of Veni Vidi Vici School of Training, Certified Counselling Psychologist, Researcher, Writer, Thought Leader, Professional Orator, Motivational Speaker, Career Coach, and Life-Skills Trainer. With a Bachelor’s in Psychology, Master’s in Counselling Psychology, and Mentoria Advanced Career Coach certification, he brings 13+ years of training diverse groups—from adolescents to seniors, slums to Rotary/Lions clubs—and 15+ years in public speaking.
+<br><br>His achievements include 35 awards, 1,000+ training programs impacting over 1 lakh people, leadership as Opposition Leader at Yuva Parliament 2017 (IIM-Rohtak), Tamil Nadu Youth Delegate for Pravasi Bharatiya Divas (2017), and top scorer in Communicate to Change (C2C). He has authored 6 research papers in the International Journal of Social Studies and championed women empowerment through trainings.
+<br><br>Currently President of World Youth Federation (2025–present) and Director of Business Development & Public Relations at IntecAi Digital Pvt Ltd (2024–present), with past roles including President of United Psychology Association (2020–2025) and Leo Club of Chennaipattinam (2016–2018). Nizamudeen’s passion for transformative leadership strengthens Good Captains of India Foundation’s mission.
+</p>
                             <!-- <ul>
                                 <li>A world where empowered communities thrive with opportunitie.</li>
                             </ul> -->
@@ -347,21 +452,27 @@
                     <!-- Our Approach Item End -->
                 </div>
 
-                <div class="col-xl-4 col-md-6">
+                <div class="col-xl-12 col-md-6">
                     <!-- Our Approach Item Start -->
                     <div class="approach-item box-3 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="approach-item-header">
-                            <div class="icon-box">
+                            <!-- <div class="icon-box">
                                 <img src="images/icon-our-approach-3.svg" alt="">
-                            </div>
+                            </div> -->
                             <div class="approach-item-title">
-                                <h3>Our Values</h3>
+                                <h3>Geetha Jayarajan</h3>
+                                <p style="color: black;"
+   onmouseover="this.style.color='white'"
+   onmouseout="this.style.color='black'">
+   Trustee
+</p>
                             </div>
                         </div>
                         <div class="approach-item-content">
-                            <p>At Good Captains of India Foundation, we believe in empowering individuals and communities through 
-                                compassionate leadership, sustainable development, and inclusive opportunities, steering India toward a brighter, equitable, and thriving future.Guided by the United Nations’ Sustainable Development Goals (SDGs), 
-                                we’ve decoded these global aspirations into 5 Ps that encapsulate their essence</p>
+                            <p>Geetha Jayarajan is a proud homemaker with a profound passion for women’s empowerment and a visionary outlook for a stronger, more equitable society. From her home in the heart of family life, she channels her nurturing spirit and practical wisdom into initiatives that uplift women across communities.
+<br><br>At Good Captains of India Foundation, Geetha plays a pivotal role in driving programs focused on skill-building, self-reliance, and leadership for women. Her great vision emphasizes creating opportunities for women to thrive, balancing tradition with empowerment, and fostering resilience through compassionate support.
+<br><br>With her grounded perspective and unwavering dedication, Geetha inspires lasting change, aligning perfectly with our mission to steer India toward a brighter, inclusive future.
+</p>
                             <!-- <ul>
                                 <li>Guiding every action we take to create meaningful & lasting social impact.</li>
                             </ul> -->
@@ -369,7 +480,35 @@
                     </div>
                     <!-- Our Approach Item End -->
                 </div>
+      <div class="col-xl-12 col-md-6">
+                    <!-- Our Approach Item Start -->
+                    <div class="approach-item box-3 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="approach-item-header">
+                            <!-- <div class="icon-box">
+                                <img src="images/icon-our-approach-3.svg" alt="">
+                            </div> -->
+                            <div class="approach-item-title">
+                                <h3>Sanjay Nagarajan</h3>
+                                <p style="color: black;"
+   onmouseover="this.style.color='white'"
+   onmouseout="this.style.color='black'">
+   Trustee
+</p>
+                            </div>
+                        </div>
+                        <div class="approach-item-content">
+                            <p>Sanjay Nagarajan is a renowned food scientist with extensive expertise in nutrition, food technology, and sustainable practices. His deep knowledge of innovative food systems and community health drives impactful contributions to social initiatives.
+<br><br>At Good Captains of India Foundation, Sanjay applies his scientific acumen to programs enhancing community well-being, from skill-building workshops to sustainable development projects aligned with UN SDGs. His vision integrates cutting-edge research with practical solutions for nutrition and empowerment.
+<Br><Br>With a commitment to positive change, Sanjay strengthens our mission of compassionate leadership, helping steer communities toward healthier, thriving future
 
+</p>
+                            <!-- <ul>
+                                <li>Guiding every action we take to create meaningful & lasting social impact.</li>
+                            </ul> -->
+                        </div>
+                    </div>
+                    <!-- Our Approach Item End -->
+                </div>
            
             </div>
         </div>
@@ -388,7 +527,7 @@
             <!-- Why Choose Us Image Start -->
             <div class="our-causes-image">
                 <figure class="image-anime">
-                    <img src="images/our-causes-image.jpg" alt="Why Choose Us">
+                    <img src="images/a8.png" alt="Why Choose Us">
                 </figure>
             </div>
             <!-- Why Choose Us Image End -->
@@ -441,28 +580,9 @@
                         </div>
                     </div>
 
-                    <!-- Item 3 -->
-                    <div class="causes-item wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="icon-box">
-                            <img src="images/icon-our-causes-item-3.svg" alt="">
-                        </div>
-                        <div class="causes-item-content">
-                            <h3>Collaborative Partnerships</h3>
-                            <p>We partner with volunteers, organizations, and communities to maximize our collective impact.</p>
-                        </div>
-                    </div>
+                   
 
-                    <!-- Item 4 -->
-                    <div class="causes-item wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="icon-box">
-                            <img src="images/icon-our-causes-item-4.svg" alt="">
-                        </div>
-                        <div class="causes-item-content">
-                            <h3>Sustainable Impact</h3>
-                            <p>Our programs focus on long-term development that benefits future generations.</p>
-                        </div>
-                    </div>
-
+                  
                 </div>
                 <!-- Why Choose Us Item List End -->
 
@@ -481,7 +601,7 @@
  
   
 
-     <!-- Main Footer Start -->
+    <!-- Main Footer Start -->
     <footer class="main-footer dark-section">
         <div class="container">
             <div class="row">
@@ -539,7 +659,12 @@ we strive to build a stronger, inclusive, and prosperous future for society.
                         <div class="footer-links footer-location-info">
                             <h2>Our Location</h2>
                             <ul>
-                                <li><img src="images/icon-location-accent.svg" alt="">
+                               
+                                    <li><img src="images/icon-mail-accent.svg" alt="">
+                                 contact@goodcaptainsofindia.org</li>
+                                    <li><img src="images/icon-phone-accent.svg" alt="">
+                                   +(91)965-590-0009</li>
+                                    <li><img src="images/icon-location-accent.svg" alt="">
                                    Chennai, TamilNadu</li>
                             </ul>
 
@@ -547,8 +672,7 @@ we strive to build a stronger, inclusive, and prosperous future for society.
                             <div class="footer-social-links">
                                 <h3>Follow Us On Socials:</h3>
                                 <ul>
-                                    <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                   
                                     <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
                                     <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
                                 </ul>
@@ -652,6 +776,24 @@ document.getElementById("year").textContent = new Date().getFullYear();
     <script src="js/wow.min.js"></script>
     <!-- Main Custom js file -->
     <script src="js/function.js"></script>
+       <script>
+  const toggleBtn = document.getElementById("callToggle");
+  const enquiryBox = document.getElementById("enquiryBox");
+
+  toggleBtn.addEventListener("click", () => {
+    enquiryBox.style.display =
+      enquiryBox.style.display === "block" ? "none" : "block";
+  });
+
+  document.addEventListener("click", (e) => {
+    if (!e.target.closest(".floating-contact")) {
+      enquiryBox.style.display = "none";
+    }
+  });
+  toggleBtn.addEventListener("click", () => {
+  enquiryBox.classList.toggle("show");
+});
+</script>
 </body>
 
 <!-- Mirrored from html.awaikenthemes.com/aasha/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 23 Mar 2026 10:50:43 GMT -->
