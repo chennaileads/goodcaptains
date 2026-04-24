@@ -5,15 +5,15 @@
 <head>
 	<!-- Meta -->
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="X-UA-Compatible" content="Good Captains">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	<meta name="description" content="">
 	<meta name="keywords" content="">
-	<meta name="author" content="Awaiken">
+	<meta name="author" content="">
 	<!-- Page Title -->
     <title>Good Captains of India Foundation</title>
 	<!-- Favicon Icon -->
-	<!-- <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png"> -->
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
     <!-- Google Fonts Css-->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
@@ -36,8 +36,96 @@
 	<link href="css/custom.css" rel="stylesheet" media="screen">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
-<body>
+<style>
+       .floating-contact {
+  position: fixed;
+  right: 15px;
+  top: 90%;
+  transform: translateY(-50%);
+  z-index: 9999;
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Buttons */
+.contact-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #fff;
+  font-size: 22px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+}
+
+.whatsapp { background: #176835; }
+.call { background: #c62828; }
+
+/* Floating Enquiry Box */
+.enquiry-float {
+  position: fixed;
+  right: 20px;
+  width: 260px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  z-index: 9999;
+    display: none;
+}
+/* Form */
+.enquiry-float form h4 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.enquiry-float input,
+.enquiry-float textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.enquiry-btn {
+  width: 100%;
+  background: #e63946;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.enquiry-btn:hover {
+  background: #c92f3c;
+}
+</style>
+<body>
+<div class="floating-contact">
+
+  <!-- WhatsApp -->
+  <a href="https://wa.me/919655900009" target="_blank" class="contact-btn whatsapp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Call -->
+  <a href="tel:+919655900009 " class="contact-btn call">
+    <i class="fas fa-phone"></i>
+  </a>
+
+</div>
     <!-- Preloader Start -->
 	<!-- <div class="preloader">
 		<div class="loading-container">
@@ -54,7 +142,7 @@
 				<div class="container">
 					<!-- Logo Start -->
 					<a class="navbar-brand" href="index.html">
-						<img src="images/1.png" style="height: 80px;" alt="Logo">
+						<img src="images/1.png" style="height: 100px;" alt="Logo">
 					</a>
 					<!-- Logo End -->
 
@@ -185,8 +273,8 @@
                             <div class="how-work-item-content">
                                 <h3> People </h3>
                                 <p><strong>Our Goal:</strong> To eradicate poverty and hunger while ensuring health, education, and equality for all.</p>
-                                <p><strong>• Example SDGs: </strong> 
-                                   SDG 1 (No Poverty), SDG 2 (Zero Hunger), SDG 3 (Good Health and Well-being).
+                                <p><strong>• SDGs: </strong> 
+                                  SDG 1 (No Poverty), SDG 2 (Zero Hunger), SDG 3 (Good Health and Well-being).
                                 <br><strong>• Our Focus:  </strong> 
                                    Empowering EVERYONE to live with dignity and opportunity.</p>
                                    <p>At the heart of our mission lies the commitment to uplift the vulnerable, provide access to quality education, and champion equal opportunities. Together, we can create a world where no one is left behind.</p>
@@ -209,8 +297,8 @@
                             <div class="how-work-item-content">
                                 <h3> Planet  </h3>
                                 <p><strong>Our Goal:</strong> To protect natural resources, combat climate change, and promote sustainability.</p>
-                                <p><strong>• Example SDGs: </strong> 
-                                  SDG 13 (Climate Action), SDG 14 (Life Below Water), SDG 15 (Life on Land).
+                                <p><strong>• SDGs: </strong> 
+                            SDG 13 (Climate Action), SDG 14 (Life Below Water), SDG 15 (Life on Land).
                                 <br><strong>• Our Focus:  </strong> 
                                    Ensuring we nurture the environment for generations to come.</p>
                                    <p>We advocate for sustainable practices, community-driven conservation efforts, and initiatives to combat climate change. By preserving our planet, we pave the way for a resilient and flourishing future.</p>
@@ -233,8 +321,8 @@
                             <div class="how-work-item-content">
                                 <h3> Prosperity  </h3>
                                 <p><strong>Our Goal:</strong> To drive inclusive economic growth, innovation, and resilient infrastructure.</p>
-                                <p><strong>• Example SDGs: </strong> 
-                                  SDG 8 (Decent Work and Economic Growth), SDG 9 (Industry, Innovation, and Infrastructure).
+                                <p><strong>• SDGs: </strong> 
+                                 SDG 8 (Decent Work and Economic Growth), SDG 9 (Industry, Innovation, and Infrastructure).
                                 <br><strong>• Our Focus:  </strong> 
                                    A future where EVERYONE can thrive and succeed.</p>
                                    <p>We support entrepreneurial ventures, skill development programs, and innovative solutions that promote economic equity and sustainable progress.</p>
@@ -258,8 +346,8 @@
                             <div class="how-work-item-content">
                                 <h3> Peace  </h3>
                                 <p><strong>Our Goal:</strong>To foster just, inclusive, and peaceful societies.</p>
-                                <p><strong>• Example SDGs: </strong> 
-                               To foster just, inclusive, and peaceful societies.
+                                <p><strong>• SDGs: </strong> 
+                           SDG 16 (Peace, Justice, and Strong Institutions).
                                 <br><strong>• Our Focus:  </strong> 
                                   Building a world free from violence and injustice.</p>
                                    <p>Through advocacy, education, and collaboration, we work to eliminate systemic barriers and empower communities to live in harmony and security.</p>
@@ -283,8 +371,8 @@
                             <div class="how-work-item-content">
                                 <h3> Partnerships </h3>
                                 <p><strong>Our Goal:</strong>To mobilize global collaborations to achieve sustainable development.</p>
-                                <p><strong>• Example SDGs: </strong> 
-                               To mobilize global collaborations to achieve sustainable development.
+                                <p><strong>• SDGs: </strong> 
+                            SDG 17 (Partnerships for the Goals).
                                 <br><strong>• Our Focus:  </strong> 
                                   Strengthening unity and cooperation to amplify impact.</p>
                                    <p>Collaboration is key. By building robust partnerships with stakeholders, organizations, and individuals, we aim to maximize our collective potential and drive meaningful change.</p>
@@ -331,7 +419,7 @@
 
   
 
-       <!-- Main Footer Start -->
+      <!-- Main Footer Start -->
     <footer class="main-footer dark-section">
         <div class="container">
             <div class="row">
@@ -389,7 +477,12 @@ we strive to build a stronger, inclusive, and prosperous future for society.
                         <div class="footer-links footer-location-info">
                             <h2>Our Location</h2>
                             <ul>
-                                <li><img src="images/icon-location-accent.svg" alt="">
+                               
+                                    <li><img src="images/icon-mail-accent.svg" alt="">
+                                 contact@goodcaptainsofindia.org</li>
+                                    <li><img src="images/icon-phone-accent.svg" alt="">
+                                   +(91)965-590-0009</li>
+                                    <li><img src="images/icon-location-accent.svg" alt="">
                                    Chennai, TamilNadu</li>
                             </ul>
 
@@ -397,8 +490,7 @@ we strive to build a stronger, inclusive, and prosperous future for society.
                             <div class="footer-social-links">
                                 <h3>Follow Us On Socials:</h3>
                                 <ul>
-                                    <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                   
                                     <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
                                     <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
                                 </ul>
@@ -502,6 +594,24 @@ document.getElementById("year").textContent = new Date().getFullYear();
     <script src="js/wow.min.js"></script>
     <!-- Main Custom js file -->
     <script src="js/function.js"></script>
+       <script>
+  const toggleBtn = document.getElementById("callToggle");
+  const enquiryBox = document.getElementById("enquiryBox");
+
+  toggleBtn.addEventListener("click", () => {
+    enquiryBox.style.display =
+      enquiryBox.style.display === "block" ? "none" : "block";
+  });
+
+  document.addEventListener("click", (e) => {
+    if (!e.target.closest(".floating-contact")) {
+      enquiryBox.style.display = "none";
+    }
+  });
+  toggleBtn.addEventListener("click", () => {
+  enquiryBox.classList.toggle("show");
+});
+</script>
 </body>
 
 <!-- Mirrored from html.awaikenthemes.com/aasha/services.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 23 Mar 2026 10:50:44 GMT -->
